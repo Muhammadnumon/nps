@@ -1,24 +1,12 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println( "Hello go")
-	score1:=10
-	score2:=10
-	score3:=10
-promotersLowerBound :=9
-if score1 >=promotersLowerBound{
-
+}
+func fuelDistance(fuelConsumption int) int {
+	const Kilometers = 100
+	fuelAvailable := 20
+	fuelConsumption = 10
+	Distance := (fuelAvailable * Kilometers) / fuelConsumption
+	return Distance
 
 }
-
-}
-
-
-
-
-//ctrl+alt+v
-//alt +f12->Terminal
-//ctrl+/ ->comment avto
-//tochka ostanovki->Ctrl+f8
